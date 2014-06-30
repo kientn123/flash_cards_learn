@@ -1,0 +1,68 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background-image: url('http://www.containerstore.com/catalogimages/102409/ElfaMelaminDeskTopSycamore_x.jpg');
+}
+
+
+#first-row {
+	background-color: #caca7e;
+}
+
+#big-name {
+	font-size: 40px;
+	text-align: center;
+	font-family: 'Lemon', cursive;
+	color: #987b6e;
+}
+
+#profile-picture {
+	width: 20px;
+	height: 20px;
+	float: right;
+}
+
+#fb-picture {
+	padding-right: 4px;
+	margin-top: 15px;
+}
+
+#fb-text {
+	padding-left: 0;
+	margin-top: 15px;
+}
+
+#createinfo {
+	display: none;
+}
+
+#list ul li {
+	cursor: pointer;
+}
+
+
+.float-div {
+	position: fixed; 
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: .2;
+	padding: 400px 400px;
+	z-index: 1;
+	display: none;
+}
+.x {
+	z-index: 2;
+	font-size: 100px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	opacity: 1;
+	cursor: pointer;
+	display: none;
+}

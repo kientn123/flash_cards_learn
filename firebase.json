@@ -1,0 +1,5 @@
+{
+  "firebase": "flashcardlearn",
+  "public": "public",
+  "rules": "config/rules.json"
+}
